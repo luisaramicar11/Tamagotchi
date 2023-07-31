@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.container {
+  width: 30vw;
+  height: 90vh;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blueviolet;
+  border-radius: 30%;
+  font-size: 0.9rem;
+  border: thick solid #000;
+}
+
+.container-tamagotchi {
+  width: 50%;
+  height: auto;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blanchedalmond;
+  font-size: 0.7rem;
+  border-radius: 30%;
+  border: medium solid #000;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
+}
+.botones input[type="button"] {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 40%;
+  font-weight: bold;
+  border: none;
+}
+
+.estado,
+.alerta {
+  text-align: center;
+  font-weight: bold;
+}
+
+.estado {
+  background-color: aqua;
+  width: 80%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0.5rem;
+  border: thin solid #000;
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
