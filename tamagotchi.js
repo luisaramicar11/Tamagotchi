@@ -88,7 +88,7 @@ class Tamagotchi {
 const Kutchipachi = new Tamagotchi();
 
 Kutchipachi.nacer();
-Kutchipachi.mostrarEstado();
+//Kutchipachi.mostrarEstado();
 Kutchipachi.estadoActual();
 
 const $btnComer = document.getElementById("btn-comer"),
@@ -104,16 +104,16 @@ document.addEventListener("click", (e) => {
   if (e.target === $btnComer) {
     cambioEstado("./assets/comer.png");
     Kutchipachi.comer();
-    Kutchipachi.mostrarEstado();
+    //Kutchipachi.mostrarEstado();
   }
   if (e.target === $btnJugar) {
     cambioEstado("./assets/jugar.png");
     Kutchipachi.jugar();
-    Kutchipachi.mostrarEstado();
+    //Kutchipachi.mostrarEstado();
   }
   if (e.target === $btnDormir) {
     cambioEstado("./assets/dormir.png");
     Kutchipachi.dormir();
-    Kutchipachi.mostrarEstado();
+    //Kutchipachi.mostrarEstado();
   }
 });

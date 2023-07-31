@@ -13,20 +13,24 @@ body {
   overflow-x: hidden;
 }
 .container {
-  width: 30vw;
-  height: 90vh;
+  width: 50vw;
+  height: 70vh;
   padding: 2rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: blueviolet;
+  background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21);
+  background-size: 100% 100%;
   border-radius: 30%;
   font-size: 0.9rem;
   border: thick solid #000;
 }
 
 .container-tamagotchi {
-  width: 50%;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
   padding: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -37,7 +41,7 @@ body {
 }
 
 img {
-  max-width: 90%;
+  max-width: 60%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -50,9 +54,11 @@ img {
   align-items: center;
 }
 .botones input[type="button"] {
+  width: 4rem;
+  height: 2rem;
   padding: 0.5rem;
   margin: 1rem;
-  border-radius: 40%;
+  border-radius: 50%;
   font-weight: bold;
   border: none;
 }
@@ -74,9 +80,10 @@ img {
 }
 
 .logo {
-  width: 50%;
+  width: 15rem;
   height: auto;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem;
 }
